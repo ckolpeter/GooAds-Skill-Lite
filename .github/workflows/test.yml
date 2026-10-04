@@ -7,15 +7,11 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: ['3.13']
+        python-version: ['3.10', '3.13']
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.python-version }}
       - run: python -m unittest discover -s tests -v
-      - name: Diagnose manifest
-        run: |
-          cp MANIFEST.sha256 /tmp/manifest.before
-          python scripts/release_gate.py --write-manifest
-          diff -u /tmp/manifest.before MANIFEST.sha256
+      - run: python scripts/release_gate.py
