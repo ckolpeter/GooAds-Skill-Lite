@@ -1,0 +1,4 @@
+interface:
+  display_name: "GooAds Skill Lite"
+  short_description: "Google 搜尋廣告離線規劃與素材起稿"
+  default_prompt: "Use $gooads-skill-lite to turn my supplied brief into an offline plan, explain assumptions, and validate local outputs."

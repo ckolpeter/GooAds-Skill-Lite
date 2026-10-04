@@ -1,0 +1,16 @@
+{
+  "id": "gooads-skill-lite",
+  "title": "GooAds Skill Lite",
+  "version": "1.0.0",
+  "edition": "lite",
+  "platform": "google_ads",
+  "scope": "search_planning",
+  "contract_name": "gooads.plan",
+  "contract_version": "1.0",
+  "utm_source": "google",
+  "utm_medium": "cpc",
+  "runtime_network": false,
+  "external_reads": false,
+  "external_writes": false,
+  "release_date": "2026-10-05"
+}
