@@ -1,5 +1,7 @@
 # GooAds Skill Lite v1.0.0
 
+[繁體中文](docs/i18n/README.zh-TW.md) · [简体中文](docs/i18n/README.zh-CN.md) · [English](docs/i18n/README.en.md) · [日本語](docs/i18n/README.ja.md) · [한국어](docs/i18n/README.ko.md)
+
 **AI Ads Academy／AI 廣告學院｜最基礎離線版**
 
 Google 搜尋廣告：意圖分組、關鍵字候選、否定字候選、RSA 文案與本地字數檢查。
