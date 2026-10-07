@@ -11,6 +11,6 @@ Scope: `gooads-skill-lite`. This is a repository/behavior-design audit, not plat
 | Ordered checklist | PASS | SKILL.md contains an order-sensitive checklist and failure-return rule. |
 | Self-correction loop | PASS | Draft → validate → repair → revalidate; validators cannot be weakened. |
 | Dependencies explicit | PASS | Python 3.10+ standard library only; no third-party runtime dependency. |
-| Cross-model evaluation | NOT_RUN | Required lanes live in `evals/MODEL_EVAL_MATRIX.md`; actual model runs remain pending. |
+| Cross-model evaluation | PASS (scoped AUTOMATED_SMOKE) | Historical reconciled smoke evidence: Haiku PASS, Sonnet PASS, Opus PASS; warnings: none. No FAIL or INVALID_RUN. |
 
 A CI PASS proves structural/deterministic invariants only. It does not prove platform eligibility, policy approval, model quality, or advertising performance.

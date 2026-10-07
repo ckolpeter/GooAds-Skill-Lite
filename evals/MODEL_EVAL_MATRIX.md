@@ -1,4 +1,14 @@
-# Model evaluation matrix — NOT_RUN
+# Model evaluation matrix — AUTOMATED_SMOKE observed 2026-10-07
+
+Evaluation type: **AUTOMATED_SMOKE**. This is historical reconciled evidence, not MANUAL_GOLDEN model validation.
+
+| Model | Derived status | Warnings |
+|---|---|---|
+| Claude Haiku | PASS | None |
+| Claude Sonnet | PASS | None |
+| Claude Opus | PASS | None |
+
+The reconciled batch result is PASS or PASS_WITH_WARNINGS with no FAIL or INVALID_RUN. Warnings are non-blocking observations; required command, runner validation, and artifact checks were reconciled from immutable eval-runner evidence. No live operations or platform certification are claimed.
 
 Deterministic CI and release-gate PASS do not prove model behavior.
 
